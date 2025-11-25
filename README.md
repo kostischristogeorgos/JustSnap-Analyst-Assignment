@@ -7,7 +7,10 @@ This project implements a **product matching system** that:
 - Takes **unstructured product descriptions** as input.  
 - Extracts **structured attributes** such as size, color, brand, material, season, and year.  
 - Finds the **top matching SKUs** from the product catalog.  
-- Provides **confidence scores** and alternative matches.  
+- Provides **confidence scores** and alternative matches.
+- Uses a **hybrid similarity approach** combining semantic text embeddings with rule-based attribute extraction.  
+- Ranks products based on a **weighted scoring system** that balances text similarity and attribute match quality.
+
 
 **Goal:** Reduce manual matching time, improve inventory tracking, and increase sales by automatically suggesting the most relevant products.
 
