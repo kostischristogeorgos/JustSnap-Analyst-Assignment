@@ -131,3 +131,5 @@ The format of the list for each item is as follows:
 3. **Confidence** combines cosine similarity + attribute boosts, expressed as a percentage.
 
 4. **extracted_attributes** are parsed from the unstructured description.
+
+**The results are stored in 'results_from_test_descriptions.json' file where they can be views independently**, the notebook also provides visualizations for the confidence distribution and error analysis per category. 
